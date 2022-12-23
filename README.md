@@ -1,9 +1,14 @@
 # SuperTraders
-1) npm install
 
-2) npm start
+1) docker run --name postgres -e POSTGRES_PASSWORD=123456 -p 5432:5432 -d postgres
 
-P.S: add migration
+2) create database supertraders
 
-npm run typeorm migration:generate src/migrations/"migration name"
-npm run typeorm migration:run
+3) add migration
+
+    npm run typeorm migration:generate src/migrations/"migration name"
+    npm run typeorm migration:run
+
+4) npm install
+
+5) npm start

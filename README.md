@@ -6,8 +6,9 @@
 
 3) add migration
 
-    npm run typeorm migration:generate src/migrations/"migration name"
-    npm run typeorm migration:run
+    - npm run typeorm migration:generate src/migrations/"migration name"
+
+    - npm run typeorm migration:run
 
 4) npm install
 
